@@ -1,0 +1,417 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat';
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+.container{
+  margin: 10px 60px;
+  padding: 0px 0px;
+}
+
+/* ====================================== 
+            CSS for Mobile View 
+  ======================================*/
+
+  @media (min-width: 320px) {
+    /* hero area css */
+    .header-area .navbar ul {
+      font-size: 20px;;
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .header-area .navbar ul li {
+      float: left;
+    }
+    
+    .header-area .navbar li a {
+      display: inline-block;
+      color: #fe6603;
+      text-align: center;
+      padding: 10px 12px;
+      text-decoration: none;
+    }
+    
+    .header-area .navbar li a:hover {
+      background-color: #ddd;
+    }
+
+      /* hero area content css */
+      .hero-area {
+        margin: 80px 0px;
+      }
+
+      .hero-area .row .content {
+        width: 100%;
+        text-align: center;
+    }
+      .hero-area .row h1 {
+        color: #fe6603;
+        font-size: 40px;
+        text-align: center;
+    }
+      .hero-area .row hr {
+        border: 1px solid #fe6603;
+        width: 82%;
+        display: inline-block;
+    }
+    .hero-area .row h2 {
+      color: #fe6603;
+      font-size: 28px;
+      margin-top: -8px;
+   }
+   .hero-area .row p {
+    font-size: 22px;
+ }
+   .hero-area .row button {
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fe6603;
+    color: white;
+    padding: 10px 20px;
+   }
+   .hero-area .row .hero-image {
+    width: 100%;
+}
+.hero-area .row .hero-image img {
+  display: none;
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+/* after hero area content */
+  .after-hero-area {
+    background-color: #fef5ee;
+    padding: 50px 0px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .content h1{
+    font-size: 38px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .content p{
+    margin: -30px 0px;
+    font-size: 18px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .row {
+    display: flex;
+    padding: 50px 0px;
+    width: 50%;
+    margin: 0px -48px;
+  }
+  
+  .after-hero-area .row .card {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 5px;
+    padding: 5px 27px;
+  }
+  .after-hero-area .row .card img {
+    width: 100%;
+    height: auto;
+  }
+  .after-hero-area .row .card2 img {
+    width: 70%;
+    height: auto;
+  }
+  .after-hero-area .row .card3 img {
+    width: 70%;
+    height: auto;
+  }
+  .after-hero-area .row .card p {
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  /* work area content */
+  .work-area {
+    margin: 80px 0px;
+  }
+
+  .work-area .row .hero-image {
+    width: 100%;
+  }
+  .work-area .row .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-area .row .content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .work-area .row .content h1 {
+    color: #fe6603;
+    font-size: 36px;
+  }
+  .work-area .row .content .head-text {
+    color: #e48a4c;
+    font-size: 32px;
+  }
+
+  .work-area .row .content p {
+    color: #b9b9b9;
+    font-size: 32px;
+  }
+
+  /* purchase area content */
+  .purchase-area {
+    margin: 80px 0px;
+    text-align: center;
+  }
+  .purchase-area h1{
+    font-size: 31px;
+  }
+  .purchase-area .purchase-area-card {
+    padding: 50px 80px;
+    background-color: #fdefe4;
+    border-radius: 20px;
+    margin: 10px 20px;
+  }
+  .purchase-area .purchase-area-card .s-name {
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    padding: 20px 50px;
+    margin: 10px -86px;
+    border-radius: 50px;
+  }
+
+  .purchase-area .purchase-area-card .s-email {
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    padding: 20px 50px;
+    margin: 10px -86px;
+    border-radius: 50px;
+  }
+
+  .purchase-area .s-btton {
+    margin: 50px -45px;
+    border: none;
+    padding: 10px 103px;
+    border-radius: 15px;
+    background-color: #fe6603;
+    color: white;
+    font-size: 16px;
+  }
+
+  /* footer section css  */
+    .footer-area .copyright {
+      color: white;
+      padding: 5px 0px;
+      text-align: center;
+      font-size: 16px;
+      background-color: #fe6603;
+    }
+  }
+
+
+/* ====================================== 
+            CSS for Desktop View 
+  ======================================*/
+
+  @media (min-width: 1400px) {
+    /* hero area css */
+    .header-area .navbar ul {
+      font-size: 22px;
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .header-area .navbar ul li {
+      float: left;
+    }
+    
+    .header-area .navbar li a {
+      display: block;
+      color: #fe6603;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .header-area .navbar li a:hover {
+      background-color: #ddd;
+    }
+
+      /* hero area content css */
+      .hero-area {
+        margin: 80px 0px;
+      }
+      .hero-area .row {
+        display: flex;
+      }
+      .hero-area .row .content {
+        width: 20%;
+    }
+      .hero-area .row h1 {
+        color: #fe6603;
+        font-size: 50px;
+    }
+      .hero-area .row hr {
+        border: 1px solid #fe6603;
+        width: 82%;
+        display: inline-block;
+    }
+    .hero-area .row h2 {
+      color: #fe6603;
+      font-size: 38px;
+      margin-top: -8px;
+   }
+   .hero-area .row p {
+    font-size: 22px;
+ }
+   .hero-area .row button {
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fe6603;
+    color: white;
+    padding: 10px 20px;
+   }
+   .hero-area .row .hero-image {
+    width: 80%;
+}
+.hero-area .row .hero-image img {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+
+/* after hero area content */
+  .after-hero-area {
+    background-color: #fef5ee;
+    padding: 50px 0px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .content h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .content p{
+    margin: -30px 0px;
+    font-size: 22px;
+    text-align: center;
+    color: #fe6603;
+  }
+
+  .after-hero-area .row {
+    display: flex;
+    margin: 50px 200px;
+  }
+  
+  .after-hero-area .row .card {
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    margin: 20px 20px;
+    padding: 20px 50px;
+  }
+
+  /* work area content */
+  .work-area {
+    margin: 80px 0px;
+  }
+  .work-area .row {
+    display: flex;
+  }
+  .work-area .row .hero-image {
+    width: 50%;
+  }
+  .work-area .row .hero-image img {
+    width: 50%;
+    height: auto;
+  }
+
+  .work-area .row .content {
+    text-align: right;
+    width: 50%;
+  }
+
+  .work-area .row .content h1 {
+    color: #fe6603;
+    font-size: 50px;
+  }
+  .work-area .row .content .head-text {
+    color: #e48a4c;
+    font-size: 32px;
+  }
+
+  .work-area .row .content p {
+    color: #b9b9b9;
+    font-size: 32px;
+  }
+
+  /* purchase area content */
+  .purchase-area {
+    margin: 80px 0px;
+    text-align: center;
+  }
+  .purchase-area h1{
+    font-size: 50px;
+  }
+  .purchase-area .purchase-area-card {
+    padding: 50px 80px;
+    background-color: #fdefe4;
+    border-radius: 20px;
+  }
+  .purchase-area .purchase-area-card .s-name {
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    padding: 20px 50px;
+    margin: 10px 20px;
+    border-radius: 50px;
+  }
+
+  .purchase-area .purchase-area-card .s-email {
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    padding: 20px 50px;
+    margin: 10px 20px;
+    border-radius: 50px;
+  }
+
+  .purchase-area .s-btton {
+    margin: 50px 0px;
+    border: none;
+    padding: 20px 140px;
+    border-radius: 15px;
+    background-color: #fe6603;
+    color: white;
+    font-size: 22px;
+  }
+
+  /* footer section css  */
+    .footer-area .copyright {
+      color: white;
+      padding: 5px 0px;
+      text-align: center;
+      font-size: 22px;
+      background-color: #fe6603;
+    }
+  }
