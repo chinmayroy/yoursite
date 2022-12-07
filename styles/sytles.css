@@ -79,7 +79,6 @@ body {
     width: 100%;
 }
 .hero-area .row .hero-image img {
-  display: none;
   float: right;
   width: 100%;
   height: auto;
@@ -107,10 +106,8 @@ body {
   }
 
   .after-hero-area .row {
-    display: flex;
-    padding: 50px 0px;
+    padding: 20px 0px;
     width: 50%;
-    margin: 0px -48px;
   }
   
   .after-hero-area .row .card {
@@ -226,7 +223,7 @@ body {
             CSS for Desktop View 
   ======================================*/
 
-  @media (min-width: 1400px) {
+  @media (max-width: 1400px) {
     /* hero area css */
     .header-area .navbar ul {
       font-size: 22px;
