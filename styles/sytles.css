@@ -72,6 +72,7 @@ body {
    }
    .hero-area .row p {
     font-size: 22px;
+    text-align: left;
  }
    .hero-area .row button {
     font-size: 22px;
