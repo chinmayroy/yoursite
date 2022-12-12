@@ -9,17 +9,227 @@ body {
   padding: 0px 0px;
 }
 
+/* footer section css  */
+.footer-area .copyright {
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #fe6603;
+}
+
 /* ====================================== 
             CSS for Mobile View 
   ======================================*/
+@media only screen and (min-width: 320px) and (max-width: 1059px) {
+    /* hero area css */
+  .header-area {
+    text-align: center;
+  }
+    .header-area .navbar ul {
+      font-size: 18px;
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
 
-  
+    .header-area .navbar ul li {
+      float: left;
+    }
+
+    .header-area .navbar li a {
+      display: block;
+      color: #fe6603;
+      text-align: center;
+      padding: 10px 11px;
+      text-decoration: none;
+    }
+
+    .header-area .navbar li a:hover {
+      background-color: #ddd;
+    }
+
+    /* hero area content css */
+    .hero-area .row .hero-image-front img {
+      width: 100%;
+      height: auto;
+    }
+
+    .hero-area {
+      margin: 80px 0px;
+    }
+    .hero-area .content{
+      text-align: center;
+    }
+
+    .hero-area .row h1 {
+      color: #fe6603;
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+
+    .hero-area .row hr {
+      border: 1px solid #fe6603;
+      width: 62%;
+      display: inline-block;
+    }
+
+    .hero-area .row h2 {
+      color: #fe6603;
+      font-size: 28px;
+      margin-top: -8px;
+    }
+
+    .hero-area .row p {
+      font-size: 18px;
+    }
+
+    .hero-area .row button {
+      font-size: 22px;
+      border: none;
+      border-radius: 5px;
+      background-color: #fe6603;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .hero-area .row .hero-image-side {
+      display: none;
+    }
+
+    /* after hero area content */
+    .after-hero-area {
+      background-color: #fef5ee;
+      padding: 50px 0px;
+      text-align: center;
+      color: #fe6603;
+    }
+
+    .after-hero-area .content h1 {
+      font-size: 32px;
+      text-align: center;
+      color: #fe6603;
+    }
+
+    .after-hero-area .content p {
+      margin: -16px 0px;
+      font-size: 15px;
+      text-align: center;
+      color: #fe6603;
+    }
+
+    .after-hero-area .row {
+      display: inline-flex;
+      width: 100%;
+      margin: 40px 0px;
+      font-size: 12px;
+    }
+
+    .after-hero-area .row .card {
+  border-radius: 10px;
+  background-color: white;
+  width: 20%;
+  margin: 0px 5px;
+  padding: 10px 13px;
+    }
+    .after-hero-area .row .card1 img {
+          width: 50px;
+    }
+
+    .after-hero-area .row .card2 img {
+      width: 32px;
+    }
+
+    .after-hero-area .row .card3 img {
+      width: 37px;
+    }
+    /* work area content */
+    .work-area {
+      margin: 80px 0px;
+    }
+
+    .work-area .row .work-image {
+      width: 100%;
+    }
+
+    .work-area .row .work-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .work-area .row .content {
+      text-align: center;
+    }
+
+    .work-area .row .content h1 {
+      color: #fe6603;
+      font-size: 32px;
+    }
+
+    .work-area .row .content .head-text {
+      color: #e48a4c;
+      font-size: 16px;
+    }
+
+    .work-area .row .content p {
+      color: #b9b9b9;
+      font-size: 16px;
+    }
+
+    /* purchase area content */
+    .purchase-area {
+      margin: 80px 0px;
+      text-align: center;
+    }
+
+    .purchase-area h1 {
+      font-size: 32px;
+      padding: 0px 50px;
+    }
+
+    .purchase-area .purchase-area-card {
+      margin: 0px -50px;
+      padding: 30px 0px;
+      background-color: #fdefe4;
+      border-radius: 20px;
+    }
+
+    .purchase-area .purchase-area-card .s-name {
+      text-align: center;
+      font-size: 18px;
+      border: none;
+      padding: 9px 45px;
+      margin: 10px 20px;
+      border-radius: 50px;
+    }
+
+    .purchase-area .purchase-area-card .s-email {
+      text-align: center;
+      font-size: 18px;
+      border: none;
+      padding: 9px 45px;
+      margin: 10px 20px;
+      border-radius: 50px;
+    }
+
+    .purchase-area .s-btton {
+      margin: 30px 0px;
+      border: none;
+      padding: 10px 110px;
+      border-radius: 15px;
+      background-color: #fe6603;
+      color: white;
+      font-size: 18px;
+    }
+  }
 
 /* ====================================== 
             CSS for Desktop View 
   ======================================*/
 
-  @media (max-width: 1400px) {
+@media only screen and (min-width: 1060px){
     /* hero area css */
     .header-area .navbar ul {
       font-size: 22px;
@@ -47,6 +257,9 @@ body {
     }
 
       /* hero area content css */
+      .hero-area .row .hero-image-front {
+        display: none;
+      }
       .hero-area {
         margin: 80px 0px;
       }
@@ -82,10 +295,10 @@ body {
     color: white;
     padding: 10px 20px;
    }
-   .hero-area .row .hero-image {
-    width: 80%;
+   .hero-area .row .hero-image-side {
+    width: 82%;
 }
-.hero-area .row .hero-image img {
+.hero-area .row .hero-image-side img {
   float: right;
   width: 50%;
   height: auto;
@@ -133,16 +346,16 @@ display: inline-flex;
 display: inline-flex;
   }
   .work-area .row .work-image {
-    width: 50%;
+    width: 60%;
   }
   .work-area .row .work-image img {
-    width: 50%;
+    width: 60%;
     height: auto;
   }
 
   .work-area .row .content {
     text-align: right;
-    width: 50%;
+    width: 40%;
   }
 
   .work-area .row .content h1 {
@@ -199,13 +412,4 @@ display: inline-flex;
     color: white;
     font-size: 22px;
   }
-
-  /* footer section css  */
-    .footer-area .copyright {
-      color: white;
-      padding: 5px 0px;
-      text-align: center;
-      font-size: 22px;
-      background-color: #fe6603;
-    }
   }
